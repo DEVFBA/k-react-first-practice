@@ -16,10 +16,10 @@ const App = () => {
           <MainHeader text='Frontend Tooling'/>
           <SecondHeader text='Get ready for a development environment that can finally catch up with you'/>
           <div className='buttons-row'>
-            <Button className='button' text='Get Started'/>
-            <Button className='button' text='Why Vite?'/>
-            <Button className='button' text='View on GitHub'/>
-            <Button className='button' text='ViewConf 23!'/>
+            <Button text='Get Started'/>
+            <Button text='Why Vite?'/>
+            <Button text='View on GitHub'/>
+            <Button text='ViewConf 23!'/>
           </div>
         </section>
         <section>

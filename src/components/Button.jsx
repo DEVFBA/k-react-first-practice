@@ -1,7 +1,7 @@
 const Button = (props) => {
 
     return(
-        <a href="">{props.text}</a>
+        <a href='' className='button'>{props.text}</a>
     )
 
 }

@@ -1,7 +1,7 @@
 const MainHeader = (props) => {
 
     return(
-        <h1>{props.text}</h1>
+        <h1 className='main-header'>{props.text}</h1>
     )
 
 }

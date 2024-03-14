@@ -1,7 +1,19 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  background-color: #000033;
+  color: white;
+}
+
 .main-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
+}
+
+.main-header {
+  font-weight: 700;
+  color: white;
 }
 
 .buttons-row {
@@ -11,7 +23,10 @@
 }
 
 .button {
-  border: solid 1px black;
+  border: solid 1px white;
+  text-decoration: none;
+  background-color: #18181b;
+  color: white;
 }
 
 .cards-container {
